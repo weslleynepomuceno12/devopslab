@@ -8,7 +8,7 @@ csrf = CSRFProtect(app)
 
 @app.route("/")
 def pagina_inicial():
-    return "Mensagem Alterada..."
+    return "Mensagem Alterada... Docker"
 
 if __name__ == '__main__':
     port = os.getenv('PORT')
